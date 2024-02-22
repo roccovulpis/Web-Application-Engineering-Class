@@ -1,0 +1,30 @@
+#t1, th, td {
+    border:1px solid black;
+    border-spacing: 5px;
+  }
+  
+  .col1 {
+    height: 50px;
+    width: 400px;
+  }
+
+  #t2 {
+    border:1px solid black;
+    padding: 15px;
+    border-spacing: 20px;
+  }
+
+  #t2 td, #t2 th {
+    width: 100px; 
+    height: 50px;
+}
+
+#t3 {
+    border:2px solid black;
+    border-spacing: 15px;
+}
+
+#t3 td, #t3 th {
+    width: 200px; 
+    height: 50px;
+}

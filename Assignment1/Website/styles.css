@@ -1,0 +1,76 @@
+body {
+    background-image: url("Resources/images/web-page-background-image-10.jpg");
+}
+
+#happy-man {
+    width:200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+#cart {
+    width:25px;
+    height:25px; 
+}
+
+#movie {
+    width:25px;
+    height:25px; 
+}
+
+#airplane {
+    width:25px;
+    height:25px; 
+}
+
+h2 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#online-shop  {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#watch-movie {
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#book-ticket {
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#shop-body {
+    background-image: url("Resources/images/shop-online.jpg");
+}
+
+#movie-body {
+    background-image: url("Resources/images/movies.jpg");
+}
+
+#airline-body {
+    background-image: url("Resources/images/airline-1.png");
+}
+
+#title {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   color:brown;
+   text-align: center;
+}
+
+#return-home {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color:green;
+    text-align: center;
+ }
+
+.logos {
+    width:100px;
+    height:100px;
+}
