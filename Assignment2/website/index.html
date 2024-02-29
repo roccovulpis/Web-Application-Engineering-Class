@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="page-title">
+        <h1>User Registration</h1>
+    </div>
+    <div id="form">
+        <p>Please complete the following form to register with our site: </p>
+        <form>
+            <table>
+                <tr>
+                    <td>User Name: </td>
+                    <td><input type="text" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td><input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td>How did you hear about us?:<td>
+                     <select name="How did you hear about us?:" id="reference"> 
+                            <option value="Select Answer">Select Answer</option> 
+                            <option value="Another Website">Another Website</option> 
+                            <option value="Magazine ad">Magazine ad</option> 
+                            <option value="From a friend">From a friend</option> 
+                            <option value="Other">Other</option>
+                </tr>
+                <tr>
+                    <td> <label for="mailing">
+                        Please select this box if you wish to be added to our mailing list. <br>
+                        We will not pass on your details to any third party.
+                    </label></td>
+                    <td><input type="checkbox" name="mailing" id="mailing"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="btnregister">Register Now</button></td>
+                </tr>
+            </table>      
+        </form>
+    </div>
+</body>
+</html>
