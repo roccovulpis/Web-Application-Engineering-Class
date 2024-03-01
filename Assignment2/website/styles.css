@@ -1,20 +1,15 @@
 body {
-    background-color:darkgrey
+    background-color:darkgrey;
 }
 
 #page-title {
     color: green;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    
 }
 
 #form {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-
-
-
-
 

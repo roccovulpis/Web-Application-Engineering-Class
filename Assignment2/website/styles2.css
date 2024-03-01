@@ -1,0 +1,31 @@
+#header {
+    background-color: grey;
+}
+
+#register-header {
+    color: green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+#jobs-picture {
+    height: 100px;
+    width: 100px;
+}
+
+#main-content {
+    background-color: pink;
+}
+
+#footer {
+    background-color: aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#form {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
