@@ -7,12 +7,11 @@
     <title>Assignment2</title>
     <link rel="stylesheet" href="styles2.css">
 </head>
+<header id="header">
+    <img id="photo" src="/Assignment2/photos/jobs.jpeg" alt="jobs"><h1 id="register-header"> Register to our job portal</h1>
+</header>
 <body>
     <div id="main-content">
-        <header id="header">
-            <h1 id="register-header"> Register to our job portal</h1>
-            <hr>
-        </header>
         <form id="form">
             <p>Please enter your name:<input type="text" placeholder="Specify first and last name"></p> 
                 <hr>
@@ -37,9 +36,8 @@
                     <label for="female">Female</label>
                 <hr>
             <div>
-            <p> <label for="DOB">Your DOB:</label>
-                <label for="domicile">Your domicile</label>
-                <input type="text">  
+            <p> Your DOB <input type="date">
+                <label for="domicile">Your domicile</label> 
                 <select name="Your domicile" id="domicile"> 
                 <option value="Select Answer">London</option> 
                 <option value="Another Website">Paris</option> 
@@ -49,12 +47,13 @@
             <p>Your address:</p>
             <textarea name="address" id="address" cols="30" rows="5"></textarea>
             <hr>
-            <p>Attatch your CV: <button>Choose file</button></p>
+            <p>Attatch your CV: <input type="file"></input></p>
             <button>Register</button><button>Fill Again</button>
         </form>
-        <footer id="footer">
-            <h3>©all rights reserved</h3>
-        </footer>
+        
     </div>
 </body>
+<footer id="footer">
+    <h3>©all rights reserved</h3>
+</footer>
 </html>
