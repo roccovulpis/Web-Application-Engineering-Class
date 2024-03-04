@@ -7,19 +7,19 @@
     <title>Assignment2</title>
     <link rel="stylesheet" href="styles2.css">
 </head>
-<header id="header">
-    <img id="photo" src="/Assignment2/photos/jobs.jpeg" alt="jobs"><h1 id="register-header"> Register to our job portal</h1>
-</header>
 <body>
     <div id="main-content">
+        <header id="header">
+            <img id="photo" src="/Assignment2/photos/jobs.jpeg" alt="jobs"><h1 id="register-header"> Register to our job portal</h1>
+        </header>
         <form id="form">
-            <p>Please enter your name:<input type="text" placeholder="Specify first and last name"></p> 
+            <p>Please enter your name:<input type="text" placeholder="Specify first and last name" required="true"></p> 
                 <hr>
-            <p>Please enter your email:<input type="text" placeholder="Should be a valid email id"></p>
+            <p>Please enter your email:<input type="email" placeholder="Should be a valid email id" required="true"></p>
                 <hr>
-            <p>Please enter your password:<input type="text" placeholder="Minimum of length 6"></p>
+            <p>Please enter your password:<input type="text" placeholder="Minimum of length 6" required="true"></p>
                 <hr>
-            <p>Please enter your telephone:<input type="text" placeholder="xxx-xxx-xxxx""></p> 
+            <p>Please enter your telephone:<input type="tel" placeholder="xxx-xxx-xxxx" pattern="xxx-xxx-xxxx" required="true"></p> 
                 <hr>
             <p>Which language do you know</p>
                 <input type="checkbox" id="language1" name="language1" value="CSS">
@@ -36,24 +36,26 @@
                     <label for="female">Female</label>
                 <hr>
             <div>
-            <p> Your DOB <input type="date">
+                <p>Your DOB <input type="date">
                 <label for="domicile">Your domicile</label> 
-                <select name="Your domicile" id="domicile"> 
-                <option value="Select Answer">London</option> 
-                <option value="Another Website">Paris</option> 
-                <option value="Magazine ad">New York</option> </select></p>
+                <input list="domcile">
+                <datalist id="domcile">
+                <option value="London">
+                <option value="Paris">
+                <option value="New York">
+                </datalist></p>
             </div>
             <hr>
             <p>Your address:</p>
-            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            <textarea name="address" id="address" cols="30" rows="5" placeholder="Your permanent address" required="true"></textarea>
             <hr>
             <p>Attatch your CV: <input type="file"></input></p>
             <button>Register</button><button>Fill Again</button>
         </form>
-        
+        <footer id="footer">
+            <h3>©all rights reserved</h3>
+        </footer>
     </div>
+    
 </body>
-<footer id="footer">
-    <h3>©all rights reserved</h3>
-</footer>
 </html>
