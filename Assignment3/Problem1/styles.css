@@ -64,7 +64,7 @@ html, body {
 }
 
 #hall-door {
-    position: absolute;
+    position:relative;
     left: 30px; 
     top: 165px;
     width: 60px; 
