@@ -1,0 +1,89 @@
+html, body {
+    background-color:antiquewhite
+}
+
+#header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight:bolder;
+}
+
+#hall {
+    border: 1px solid;
+    height: 205px; 
+    width: 100%;
+    background-image: url('/Assignment3/Pictures/pic2.png'); 
+    background-size: 100% 40px;
+    background-repeat: repeat-y; 
+}
+
+#tv-room {
+    border: 1px solid;
+    height: 205px; 
+    width: 100%;
+    background-color:rgb(165, 208, 224);
+}
+
+#games-room {
+    border: 1px solid;
+    height: 205px; 
+    width: 100%;
+    background-image: url('/Assignment3/Pictures/pic1.png'); 
+}
+
+#games-door {
+    position: absolute;
+    right: 30px; 
+    top: 165px;
+    width: 60px; 
+    height: 100px; 
+    background-color:grey;
+    color: white;
+    text-decoration: none; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px ridge grey;
+}
+
+#tv-door {
+    position: absolute;
+    left: 30px; 
+    top: 165px;
+    width: 60px; 
+    height: 100px; 
+    background-color:burlywood;
+    text-decoration: none; 
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px ridge burlywood;
+}
+
+#hall-door {
+    position: absolute;
+    left: 30px; 
+    top: 165px;
+    width: 60px; 
+    height: 100px; 
+    background-color:burlywood;
+    text-decoration: none; 
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px ridge burlywood;
+}
+
+#hall-message {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
