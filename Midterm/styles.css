@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+}
+
+hr {
+    color: green;
+    background-color: green;
+    height: 3px;
+    border: none;
+}
+
+#top-page-logo {
+    display: block;
+    width: 15%;
+    margin: auto;
+
+}
+
+#links {
+    text-align: center;
+    
+}
+
+#footer {
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+    color: aliceblue;
+    width: 99%;
+    padding: none;
+    position: absolute; bottom: 1px;
+}
