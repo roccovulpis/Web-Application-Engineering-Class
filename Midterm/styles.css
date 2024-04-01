@@ -24,9 +24,8 @@ hr {
 #footer {
     text-align: center;
     justify-content: center;
-    background-color: brown;
+    background-color: rgb(88, 15, 15);
     color: aliceblue;
     width: 99%;
-    padding: none;
     position: absolute; bottom: 1px;
 }
