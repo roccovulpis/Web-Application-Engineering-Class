@@ -5,7 +5,7 @@ body {
 hr {
     color: green;
     background-color: green;
-    height: 3px;
+    height: 5px;
     border: none;
 }
 
@@ -16,9 +16,30 @@ hr {
 
 }
 
-#links {
+.container {
+    flex: 1;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: red;
+    background: grey;
+}
+
+a:visited {
+    color: magenta;
+}
+
+.col {
     text-align: center;
-    
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #footer {
@@ -26,6 +47,6 @@ hr {
     justify-content: center;
     background-color: rgb(88, 15, 15);
     color: aliceblue;
-    width: 99%;
-    position: absolute; bottom: 1px;
+    width: 100%;
+    position: absolute; bottom: 0px;
 }
