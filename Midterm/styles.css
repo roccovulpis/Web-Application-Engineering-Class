@@ -26,6 +26,10 @@ a {
 
 a:visited {
     color: magenta;
+} 
+
+a:hover {
+    color: red;
 }
 
 .col {
