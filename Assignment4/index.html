@@ -39,28 +39,44 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Disabled</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                 </li>
               </ul>
+              <div class="ml-auto">
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+              </form>
+            </div>
             </div>
           </nav>
     </div>
     
-    <div class="container-lg">
+    <div class="container">
         <div class="card">
             <div class="card-body">
               <h1>Welcome to my website</h1>
               <p>You can do various operations with images. Click on the button to read more.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <a href="#" class="btn btn-primary" onclick="readMore()">Read More</a>
             </div>
           </div>
-         
-    </div>
 
+          <div id="image-options">
+            <form>
+              <p class="font-weight-bold">What would you like to do:</p>
+              <div class="mb-3">
+                <select>
+                  <option value="Rollover">Image Rollover</option>
+                  <option value="Preview">Image Preview</option>
+                  <option value="Slideshow">Image Slideshow</option>
+                </select>
+            </div>
+            <div class="mb-3">
+              <button type="submit" onclick="submitImageSelect()">Submit</button>
+          </div>
+            </form>
+          </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
