@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/Assignment4/index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -49,34 +49,16 @@
               </form>
             </div>
             </div>
-          </nav>
+         </nav>
+    </div>
+
+    <div id="rollover">
+        <h2>Rollover</h2>
+    <img src = "/Assignment4/images/07car1.jpg" id = "pic" onmousemove = "changePic('/Assignment4/images/2019_genesis_g80_angularfront.jpg')" onmouseout = "changePic('/Assignment4/images/07car1.jpg')">
     </div>
     
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-              <h1>Welcome to my website</h1>
-              <p>You can do various operations with images. Click on the button to read more.</p>
-              <a href="#" class="btn btn-primary" onclick="readMore()">Read More</a>
-            </div>
-          </div>
 
-          <div id="image-options">
-            <form id="image-options-form">
-              <p class="font-weight-bold">What would you like to do:</p>
-              <div class="mb-3">
-                <select id="image-selection">
-                  <option value="Rollover">Image Rollover</option>
-                  <option value="Preview">Image Preview</option>
-                  <option value="Slideshow">Image Slideshow</option>
-                </select>
-            </div>
-            <div class="mb-3">
-              <button type="submit">Submit</button>
-          </div>
-            </form>
-          </div>
-    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
