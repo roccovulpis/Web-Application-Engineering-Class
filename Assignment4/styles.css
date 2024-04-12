@@ -46,10 +46,16 @@ select {
     padding-top: 5%;
 }
 
-#slideshow {
+#slideshow-header {
     justify-content: center;
     text-align: center;
     padding-top: 5%;
+}
+
+#slideshow {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
 }
 
 #preview {

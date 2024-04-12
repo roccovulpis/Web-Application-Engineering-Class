@@ -52,13 +52,23 @@
          </nav>
     </div>
 
-    <div id="slideshow">
+    <div id="slideshow-header">
         <h2>Slideshow</h2>
-    <img src = "/Assignment4/images/07car1.jpg" id = "pic">
-    <br>
-    <img src = "/Assignment4/images/green_left_arrow_104.jpg" id = "pic" height="100px" width="100px">
-    <img src = "/Assignment4/images/green_right_arrow_101.jpg" id = "pic" height="100px" width="100px">
-    </div>
+    <table id="slideshow">
+      <tbody><tr>
+              <td colspan="2">
+                  <img src="/Assignment4/images/07car1.jpg" id="pic" border="2" height="500" width="700">
+
+              </td>
+      </tr>
+
+      <tr>
+              <td>
+                   <img src="/Assignment4/images/green_left_arrow_104.jpg" height="100" width="100" onclick="pPic()">
+                   <img src="/Assignment4/images/green_right_arrow_101.jpg" height="100" width="100" onclick="nPic()">    
+              </td>
+      </tr>
+</tbody></table>
     
 
     
