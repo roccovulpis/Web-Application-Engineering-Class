@@ -68,7 +68,7 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <button href="/Assignment5/mean.html" class="btn btn-outline-secondary" type="submit">Submit</button>
+                    <button class="btn btn-outline-secondary" type="submit">Submit</button>
                 </div>
           </form>
     </div>
